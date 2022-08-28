@@ -13,7 +13,6 @@ import Typography from '@mui/material/Typography'
 const TimeLine = ( { timelines=[] } ) => {
   return (
     <div>
-
         <Timeline position='alternate' >
             {
                 timelines.map( ( item, index ) => (
@@ -34,7 +33,6 @@ const TimeLine = ( { timelines=[] } ) => {
                         <TimelineContent sx={{ pv: '12px', px: 2 }} >
                             <Typography variant='h6'> Titulo</Typography>
                             <Typography> Descripción</Typography>
-
                         </TimelineContent>
                     </TimelineItem>
                 ))
